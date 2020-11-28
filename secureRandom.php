@@ -2,6 +2,7 @@
 
 //start usage example
 $secureRandom = secureRandom(16);
+
 echo $secureRandom;
 //end usage example
 
