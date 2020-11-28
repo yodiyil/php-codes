@@ -1,7 +1,9 @@
 <?php
 
 //start usage example
-echo ago('xxxxxxxxx');
+$lastSeen = ago('xxxxxxxxx');
+
+echo $lastSeen;
 //end usage example
 
 function ago($mtime){
